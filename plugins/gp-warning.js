@@ -11,7 +11,7 @@ let handler = async (m, { conn, text, args, groupMetadata, usedPrefix, command }
         if (warn < war) {
             global.db.data.users[who].warn += 1
             m.reply(`
-⚠️ *Warned User* ⚠️
+⚠️ *Warned User 😉😍 im in Instagram https://www.instagram.com/youngtigery_tz?igsh=YzU1NGVlODEzOA== * ⚠️
 
 ▢ *Admin:* ${name}
 ▢ *User:* @${who.split`@`[0]}
@@ -19,7 +19,7 @@ let handler = async (m, { conn, text, args, groupMetadata, usedPrefix, command }
 ▢ *Reason:* ${text}`, null, { mentions: [who] }) 
             m.reply(`
 ⚠️ *caution* ⚠️
-You received a warning from an admin
+You received a warning from an admin follow me on Instagram to see me  https://www.instagram.com/youngtigery_tz?igsh=YzU1NGVlODEzOA==
 
 ▢ *Warns:* ${warn + 1}/${war} 
 if you receive *${war}* warnings you will be automatically removed from the group`, who)
@@ -28,7 +28,7 @@ if you receive *${war}* warnings you will be automatically removed from the grou
             m.reply(`⛔ The user exceeded the *${war}* warnings will therefore be removed`)
             await time(3000)
             await conn.groupParticipantsUpdate(m.chat, [who], 'remove')
-            m.reply(`♻️ You were removed from the group *${groupMetadata.subject}* because you have been warned *${war}* times`, who)
+            m.reply(`♻️ You were removed from the group *${groupMetadata.subject}* because you have been warned *${war}* times to get help follow my Instagram account https://www.instagram.com/youngtigery_tz?igsh=YzU1NGVlODEzOA==`, who)
         }
 }
 handler.help = ['warn @user']
