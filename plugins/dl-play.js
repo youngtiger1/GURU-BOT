@@ -19,7 +19,7 @@ const handler = async (m, {
     conn.GURUPLAY = conn.GURUPLAY ? conn.GURUPLAY : {};
     await conn.reply(m.chat, wait, m);
     const result = await searchAndDownloadMusic(text);
-    const infoText = `✦ ──『 *GURU PLAYER* 』── ⚝ \n\n [ ⭐ Reply the number of the desired search result to get the Audio]. \n\n` ;
+    const infoText = `✦ ──『 *Nikki PLAYER* 』follow me on TikTok https://www.tiktok.com/@nic_reece?_t=8jkDsQEA074&_r=1🥲🥲 ── ⚝ \n\n [ ⭐ Reply the number of the desired search result to get the Audio]. \n\n` ;
 
 const orderedLinks = result.allLinks.map((link, index) => {
     const sectionNumber = index + 1;
