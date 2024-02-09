@@ -1,10 +1,10 @@
 {
-  "name": "whatsapp-bot (GURU-BOT)",
-  "description": " Whatsapp bot.",
+  "name": "nikki.ai",
+  "description": " nikki bot .",
   "keywords": [
     "whatsapp bot"
   ],
-  "repository": "https://github.com/Guru322/GURU-BOT",
+  "repository": "https://www.tiktok.com/@nic_reece?_t=8jjl7ousa2f&_r=1",
   "stack": "container",
   "env": {
     "DATABASE_URL": {
