@@ -9,7 +9,7 @@ import axios from 'axios'
 global.owner = [
   ['255788715410', 'Niki', true],
   ['255673531233', 'Nikki', true], 
-  [''] 
+  ['']   
 ] //Number of owners
 
 //global.pairingNumber = "255673531233" //put your bot number here
@@ -50,16 +50,16 @@ global.APIKeys = { // APIKey Here
 }
 
 // Sticker WM
-global.botname = 'ᴛʜᴇ ɢᴜʀᴜ-ʙᴏᴛ'
-global.premium = 'true'
-global.packname = 'GURU┃ᴮᴼᵀ' 
-global.author = '@Asliguru' 
-global.menuvid = 'https://i.imgur.com/AjDzGgG.mp4'
-global.igfg = '▢ Follow on Instagram\nhttps://www.instagram.com/asli_guru69\n' 
-global.dygp = 'https://chat.whatsapp.com/BFfD1C0mTDDDfVdKPkxRAA'
-global.fgsc = 'https://github.com/Guru322/GURU-BOT' 
-global.fgyt = 'https://youtube.com/@Asliguru'
-global.fgpyp = 'https://youtube.com/@Asliguru'
+global.botname = 'nikki'
+global.premium = 'false'
+global.packname = 'nikki.ai' 
+global.author = '@luxeenet' 
+global.menuvid = ''
+global.igfg = '▢ Follow on Instagram\nhttps://www.instagram.com/yuppie_de_luxe?igsh=MzRlODBiNWFlZA==\n' 
+global.dygp = 'https://whatsapp.com/channel/0029VaJXsBN2f3ENa821MA2V'
+global.fgsc = 'https://www.tiktok.com/@nic_reece?_t=8jjl7ousa2f&_r=1' 
+global.fgyt = 'https://youtube.com/@luxeenet?si=27Bnr630JntQTzWM'
+global.fgpyp = 'https://youtube.com/@luxeenet?si=27Bnr630JntQTzWM'
 global.fglog = 'https://raw.githubusercontent.com/Guru322/api/Guru/guru.jpg' 
 global.thumb = fs.readFileSync('./Assets/Gurulogo.jpg')
 
