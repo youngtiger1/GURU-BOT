@@ -16,7 +16,7 @@ export async function before(m, {conn, isAdmin, isBotAdmin }) {
         }
         await conn.reply(m.chat, `*≡ Link Detected*
             
-We do not allow links from other groups 
+We do not allow links from other groups please 🥺 follow me 😭 on TikTok https://www.tiktok.com/@nic_reece?_t=8jkDsQEA074&_r=1 to see my real face 😉😉😉
 I'm sorry *@${m.sender.split('@')[0]}*  you will be kicked out of the group ${isBotAdmin ? '' : '\n\nIM not an admin so I canT expel you :"v'}`, null, { mentions: [m.sender] } )
         if (isBotAdmin && chat.antiLink) {
         	await conn.sendMessage(m.chat, { delete: m.key })
